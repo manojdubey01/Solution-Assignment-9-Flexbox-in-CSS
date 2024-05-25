@@ -1,0 +1,69 @@
+Question 1: Describe the main difference between CSS Flexbox layout model and CSS Grid layout model. When would you choose the one over the other."
+
+	Ans: 1. Dimensionality and Flexibility:
+		Flexbox offers greater control over alignment and space distribution between items. Being one-dimensional, Flexbox only deals with either columns or rows.
+		Grid has two-dimension layout capabilities which allow flexible widths as a unit of length. This compensates for the limitations in Flex.
+	
+	     2. Alignment:
+		Flex Direction allows developers to align elements vertically or horizontally, which is used when developers create and reverse rows or columns.
+		CSS Grid deploys fractional measure units for grid fluidity and auto-keyword functionality to automatically adjust columns or rows.
+
+	     3. Item Management:
+		Flex Container is the parent element while Flex Item represents the children. The Flex Container can ensure balanced representation by adjusting item dimensions. This 			allows developers to design for fluctuating screen sizes.
+		Grid supports both implicit and explicit content placement. Its inbuilt automation allows it to automatically extend line items and copy values into the new creation from 		the preceding item.
+
+		Conclusion:
+		CSS Grids helps you create the outer layout of the webpage. You can build complex as well responsive design with this. This is why it is called ‘layout first’.
+		Flexbox mostly helps align content & move blocks.
+		CSS grids are for 2D layouts. It works with both rows and columns.
+		Flexbox works better in one dimension only (either rows OR columns).
+		It will be more time-saving and helpful if you use both at the same time.
+
+		You might choose Flexbox layout when you need to arrange items along a single axis, like when creating Navigation bars, headers/footers layouts or aligning elements within a 
+		container. Flexbox is great for responsive designs where items vary in size.
+
+		You might Grid layout when you need to create more complex. two dimensional layouts with rows and columns. It is particularly useful when you have a grid like structure
+		such as galleries, forms with multiple fields or any design that requires precise control over both rows and columns.
+
+............................................................................................................................................
+
+Question 2: Explain the role of the following key properties in Flexbox layout model
+
+		justify-content: Justify-content property in Flexbox is used to control the alignment of flex items along with the main axis of the Flex container. It determines how the 		extra space or insufficient space along the main axis is distributed. There are several values for justify-content such as flex-start, flex-end, space-around, space-evenly
+		and space-between.
+		For example: If you set justify-content: flex-center, the flex-items will be centered along with the main axis of the flex container. If you set justify-content: flex-			space-between, the first item will be aligned at the start, the last item will be aligned at the end and the remaining space will be equally distributed among the other 		items.
+ 
+
+		align-item: align-item property in Flexbox is used to control the alignment of flex items along with the cross axis of the Flex container. It determines how the 			flex-items are positioned within their container along this axis. It accepts the values flex-start, flex-end, center, baseline and stretch.
+		For example: If you set align-items: center, flex items will be vertically centered within the container. If you set align-items: center, items will expand to fill the 
+		entire space of the container, ensuring they have the same height. 
+
+		gap: The gap property is used to define the space between two flex items in both directions, both along the main axis and cross axis. It is often applied to the flex 			container itself. 
+		For example: if you set the gap:20px, there will be a 20px gap between adjacent flex items in both main axis and cross axis improving the overall spacing and alignment
+		of items within the container. 
+
+		flex-direction: The flex-direction determines the direction in which the flex items are placed within the container. It defines the base axis and consequently.
+		It accepts row, column, row-reverse, column-reverse
+
+		flex-wrap: Flex items property controls whether the flex items are allowed to wrap onto multiple lines(new rows or columns) within the flex container when they don't 
+		fit in to the main axis. It accepts values like wrap, nowrap, wrap-reverse.
+		For example: If you set flex-wrap:wrap, flex items will be wrapped to the next line when there is not enough space on the current line, creating a multiline layout. 
+		Flex-wrap is useful for accommodating various screen sizes and orientations, allowing items to adopt to different viewports and preventing content from being cut off.
+
+............................................................................................................................................
+
+Question 3:
+	File Name: 
+		1. index.html
+		2. Output.png
+............................................................................................................................................
+
+Question 4:
+
+	File Name: 
+		1. index1.html
+		2. Output1.png
+		1. index2.html
+		2. Output2.png
+............................................................................................................................................
+
